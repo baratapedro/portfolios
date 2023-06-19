@@ -45,14 +45,14 @@ export function Portfolios() {
               <Link
                 href={'https://github.com/baratapedro/news'}
                 target="_blank"
-                className="border border-blue-900 text-blue-900 px-7 py-3 rounded-md hover:bg-blue-900 hover:text-white transition-colors"
+                className="border border-blue-900 text-blue-900 px-3 sm:px-7 py-3 rounded-md hover:bg-blue-900 hover:text-white transition-colors"
               >
                 Ver código
               </Link>
               <Link
                 href={'https://news-two-beta.vercel.app/'}
                 target="_blank"
-                className="border border-blue-900 text-blue-900 px-7 py-3 rounded-md hover:bg-blue-900 hover:text-white transition-colors"
+                className="border border-blue-900 text-blue-900 px-3 sm:px-7 py-3 rounded-md hover:bg-blue-900 hover:text-white transition-colors"
               >
                 Visualizar página
               </Link>
@@ -91,14 +91,14 @@ export function Portfolios() {
               <Link
                 href={'https://github.com/baratapedro/react-dog-api'}
                 target="_blank"
-                className="border border-blue-900 text-blue-900 px-7 py-3 rounded-md hover:bg-blue-900 hover:text-white transition-colors"
+                className="border border-blue-900 text-blue-900 px-3 sm:px-7 py-3 rounded-md hover:bg-blue-900 hover:text-white transition-colors"
               >
                 Ver código
               </Link>
               <Link
                 href={'https://react-dog-api.vercel.app/'}
                 target="_blank"
-                className="border border-blue-900 text-blue-900 px-7 py-3 rounded-md hover:bg-blue-900 hover:text-white transition-colors"
+                className="border border-blue-900 text-blue-900 px-3 sm:px-7 py-3 rounded-md hover:bg-blue-900 hover:text-white transition-colors"
               >
                 Visualizar página
               </Link>
