@@ -10,7 +10,7 @@ export function Header() {
           <ul className="flex justify-between sm:justify-normal w-full sm:w-auto px-5 sm:px-0 gap-5 sm:gap-10">
             <li>
               <Link
-                href="/#home"
+                href="https://baratapedro.github.io/portfolios/#home"
                 scroll={false}
                 className="text-gray-300 hover:text-white transition-colors"
               >
@@ -19,7 +19,7 @@ export function Header() {
             </li>
             <li>
               <Link
-                href="/#portfolios"
+                href="https://baratapedro.github.io/portfolios/#portfolios"
                 scroll={false}
                 className="text-gray-300 hover:text-white transition-colors"
               >
