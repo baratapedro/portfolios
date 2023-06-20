@@ -7,7 +7,7 @@ export function Header() {
     >
       <div className="m-auto max-w-[1280px] w-full sm:px-10">
         <nav>
-          <ul className="flex justify-between sm:justify-normal w-full sm:w-auto px-5 sm:px-0 gap-5 sm:gap-10">
+          <ul className="flex px-5 sm:px-0 gap-5 sm:gap-10">
             <li>
               <Link
                 href="https://baratapedro.github.io/portfolios/#home"

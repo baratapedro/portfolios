@@ -8,14 +8,14 @@ export function HomePage() {
       id="home"
       className="flex items-center justify-center h-full bg-gradient-to-t from-blue-400 to-blue-800"
     >
-      <div className="m-auto max-w-[1280px] w-full px-10">
+      <div className="m-auto max-w-[1280px] w-full px-5 sm:px-10">
         <div className="flex flex-col gap-5">
           <div className="text-white font-bold text-sm sm:text-xl ml-2">
             OI 👋 EU SOU PEDRO
           </div>
           <div>
-            <div className="flex items-center gap-10">
-              <div className="font-extrabold text-white text-[50px] sm:text-[100px] md:text-[125px] lg:text-[150px] leading-none">
+            <div className="flex items-center gap-3 sm:gap-5 md:gap-10">
+              <div className="font-extrabold text-white text-[40px] sm:text-[100px] md:text-[125px] lg:text-[150px] leading-none">
                 REACT
               </div>
               <Link
@@ -41,7 +41,7 @@ export function HomePage() {
               </a>
             </div>
 
-            <div className="font-extrabold text-white text-[50px] sm:text-[100px] md:text-[125px] lg:text-[150px] leading-none">
+            <div className="font-extrabold text-white text-[40px] sm:text-[100px] md:text-[125px] lg:text-[150px] leading-none">
               DEVELOPER
             </div>
           </div>

@@ -13,13 +13,13 @@ import dogMobile from '../../assets/dog-mobile.png'
 export function Portfolios() {
   return (
     <div id="portfolios" className="bg-zinc-50">
-      <div className="m-auto max-w-[1280px] w-full py-10 px-5 gap-5 grid grid-cols-1 lg:grid-cols-2">
+      <div className="m-auto max-w-[1280px] w-full py-10 px-0 sm:px-5 gap-5 grid grid-cols-1 lg:grid-cols-2">
         <div className="relative justify-self-center hover:bg-white hover:shadow-md p-5 transition-all">
-          <div className="relative max-w-[700px]">
+          <div className="relative max-w-[300px] mx-auto sm:max-w-[700px]">
             <Image
               src={pc}
               alt="Monitor"
-              className="w-full h-[350px] sm:h-[400px]"
+              className="w-full h-[200px] sm:h-[400px]"
             />
             <Image
               src={newsPc}
@@ -28,7 +28,7 @@ export function Portfolios() {
             />
           </div>
 
-          <div className="w-28 sm:w-32 absolute bottom-64 sm:bottom-32">
+          <div className="w-16 sm:w-32 absolute bottom-56 sm:bottom-32">
             <Image src={mobile} alt="" className="w-full" />
             <Image
               src={newsMobile}
@@ -45,14 +45,14 @@ export function Portfolios() {
               <Link
                 href={'https://github.com/baratapedro/news'}
                 target="_blank"
-                className="border border-blue-900 text-blue-900 px-3 sm:px-7 py-3 rounded-md hover:bg-blue-900 hover:text-white transition-colors"
+                className="border border-blue-900 text-blue-900 text-sm md:text-md px-2 sm:px-7 py-3 rounded-md hover:bg-blue-900 hover:text-white transition-colors"
               >
                 Ver código
               </Link>
               <Link
                 href={'https://news-two-beta.vercel.app/'}
                 target="_blank"
-                className="border border-blue-900 text-blue-900 px-3 sm:px-7 py-3 rounded-md hover:bg-blue-900 hover:text-white transition-colors"
+                className="border border-blue-900 text-blue-900 text-sm md:text-md px-2 sm:px-7 py-3 rounded-md hover:bg-blue-900 hover:text-white transition-colors"
               >
                 Visualizar página
               </Link>
@@ -61,11 +61,11 @@ export function Portfolios() {
         </div>
 
         <div className="relative justify-self-center hover:bg-white hover:shadow-md p-5 transition-all">
-          <div className="relative max-w-[700px]">
+          <div className="relative max-w-[300px] mx-auto sm:max-w-[700px]">
             <Image
               src={pc}
               alt="Monitor"
-              className="w-full h-[350px] sm:h-[400px]"
+              className="w-full h-[200px] sm:h-[400px]"
             />
             <Image
               src={dogPc}
@@ -74,7 +74,7 @@ export function Portfolios() {
             />
           </div>
 
-          <div className="w-28 sm:w-32 absolute bottom-64 sm:bottom-32">
+          <div className="w-16 sm:w-32 absolute bottom-56 sm:bottom-32">
             <Image src={mobile} alt="" className="w-full" />
             <Image
               src={dogMobile}
@@ -91,14 +91,14 @@ export function Portfolios() {
               <Link
                 href={'https://github.com/baratapedro/react-dog-api'}
                 target="_blank"
-                className="border border-blue-900 text-blue-900 px-3 sm:px-7 py-3 rounded-md hover:bg-blue-900 hover:text-white transition-colors"
+                className="border border-blue-900 text-blue-900 text-sm md:text-md px-2 sm:px-7 py-3 rounded-md hover:bg-blue-900 hover:text-white transition-colors"
               >
                 Ver código
               </Link>
               <Link
                 href={'https://react-dog-api.vercel.app/'}
                 target="_blank"
-                className="border border-blue-900 text-blue-900 px-3 sm:px-7 py-3 rounded-md hover:bg-blue-900 hover:text-white transition-colors"
+                className="border border-blue-900 text-blue-900 text-sm md:text-md px-2 sm:px-7 py-3 rounded-md hover:bg-blue-900 hover:text-white transition-colors"
               >
                 Visualizar página
               </Link>
