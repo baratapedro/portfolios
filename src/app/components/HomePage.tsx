@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-import { Linkedin, Github } from 'lucide-react'
+import { Linkedin, Github, FileText } from 'lucide-react'
 
 export function HomePage() {
   return (
@@ -32,6 +32,13 @@ export function HomePage() {
               >
                 <Github className="group-hover:text-white text-gray-300 w-5 h-5 sm:w-7 sm:h-7 md:w-12 md:h-12 " />
               </Link>
+              <a
+                href="https://baratapedro.github.io/portfolios/curriculo.pdf"
+                download
+                className="hover:pb-10 transition-all group"
+              >
+                <FileText className="group-hover:text-white text-gray-300 w-5 h-5 sm:w-7 sm:h-7 md:w-12 md:h-12 " />
+              </a>
             </div>
 
             <div className="font-extrabold text-white text-[50px] sm:text-[100px] md:text-[125px] lg:text-[150px] leading-none">
